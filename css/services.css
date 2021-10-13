@@ -21,3 +21,8 @@ p{
   font-size: medium;
 }
   
+img{
+  border-radius: 50px 50px 50px 50px;
+  width: 500px;
+  height: 500px;
+}

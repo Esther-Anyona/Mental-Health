@@ -1,0 +1,73 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    background-color:#1e847f;
+    font-weight: bolder;
+}
+.about {
+    font-weight: 500px;
+    font-size:x-large;
+    top: -10px;
+}
+#about{
+    text-decoration: underline goldenrod; 
+}
+h1{
+    color: #e2d810;
+    font-family: monospace;
+ }
+ #mission{
+    text-decoration: underline goldenrod;
+ }
+ #vision{
+    text-decoration: underline goldenrod;
+ }
+ #team{
+    text-decoration: underline goldenrod;
+ }
+ span{
+     color:#ffc13b;
+     font-style: oblique;
+ }
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h2{
+   color: gold;
+   text-decoration: underline;
+}
+.content {
+   display: flex;
+   justify-content: space-between;
+   margin: auto;  
+}
+img.red{
+    width: 200px;
+    height: 200px;
+}
+img.world{
+    width: 200px;
+    height: 200px;
+    background-color: honeydew;
+}
+strong{
+    color:goldenrod;
+}
+
+#one{
+     display: flex;
+    justify-content: space-between;
+    margin-inline: 0;
+}
+.image1{
+    width: 335px;
+    height: 335px;
+}
+.status{
+    color: yellow;
+}
+

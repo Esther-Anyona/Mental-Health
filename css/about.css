@@ -42,3 +42,18 @@ h2{
    justify-content: space-between;
    margin: auto;  
 }
+img.chets{
+    width: 200px;
+    height: 200px;
+}
+img.red{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+img.world{
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: honeydew;
+}

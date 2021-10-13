@@ -5,3 +5,20 @@
     background-color:#1e847f;
     font-weight: bolder;
 }
+.about {
+    font-weight: 500px;
+    font-size: 60px;
+}
+h1{
+    color: #e2d810;
+    font-family: monospace;
+ }
+ span{
+     color:#ffc13b;
+     font-style: oblique;
+ }
+ span .sayings {
+     color: orange;
+     font-size: small;
+     font: status-bar;
+ }

@@ -7,5 +7,17 @@
   text-align: center;
   color: #ffc13d;
 }
-  
+li{
+  text-align: center;
+  color: #09078E;
+  text-decoration: underline;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+p{
+  font-size: medium;
+}
   

@@ -35,4 +35,10 @@ button{
   border-radius: 30px;
   background-color: #FFC13D;
   color: #1E847F;
+  width: 200px;
+  height: 30px;
+  align-items: center;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
 }

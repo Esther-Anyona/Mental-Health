@@ -10,9 +10,21 @@
     font-size:x-large;
     top: -10px;
 }
+#about{
+    text-decoration: underline goldenrod; 
+}
 h1{
     color: #e2d810;
     font-family: monospace;
+ }
+ #mission{
+    text-decoration: underline goldenrod;
+ }
+ #vision{
+    text-decoration: underline goldenrod;
+ }
+ #team{
+    text-decoration: underline goldenrod;
  }
  span{
      color:#ffc13b;
@@ -22,9 +34,7 @@ h1{
     display: flex;
     justify-content: space-between;
 }
-#about strong{
-   color: yellowgreen;
-}
+
 
 h2{
    color: gold;
@@ -35,19 +45,13 @@ h2{
    justify-content: space-between;
    margin: auto;  
 }
-img.chets{
-    width: 200px;
-    height: 200px;
-}
 img.red{
     width: 200px;
     height: 200px;
-    float: right;
 }
 img.world{
     width: 200px;
     height: 200px;
-    float: left;
     background-color: honeydew;
 }
 strong{
@@ -62,5 +66,8 @@ strong{
 .image1{
     width: 335px;
     height: 335px;
+}
+.status{
+    color: yellow;
 }
 

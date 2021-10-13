@@ -22,3 +22,23 @@ h1{
      font-size: small;
      font: status-bar;
  }
+ .images{
+    display: flex;
+    justify-content: space-between;
+}
+#about strong{
+   color: yellowgreen;
+}
+
+h2{
+   color: gold;
+}
+.sayings{
+   position:fixed;
+}
+
+.content {
+   display: flex;
+   justify-content: space-between;
+   margin: auto;  
+}

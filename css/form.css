@@ -5,6 +5,17 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+div.form>p#intro{
+  background-color: #e5e5dc;
+  padding: 10px;
+  margin: 2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.questionnaire{
+  text-align: center;
+  background-color: #ffc13b;
+}
 #intro{
   font-size: 30px;
   font-weight: bold;

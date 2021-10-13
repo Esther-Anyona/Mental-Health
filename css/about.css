@@ -7,7 +7,8 @@
 }
 .about {
     font-weight: 500px;
-    font-size: 60px;
+    font-size:x-large;
+    top: -10px;
 }
 h1{
     color: #e2d810;
@@ -17,12 +18,7 @@ h1{
      color:#ffc13b;
      font-style: oblique;
  }
- span .sayings {
-     color: orange;
-     font-size: small;
-     font: status-bar;
- }
- .images{
+.images{
     display: flex;
     justify-content: space-between;
 }
@@ -32,11 +28,8 @@ h1{
 
 h2{
    color: gold;
+   text-decoration: underline;
 }
-.sayings{
-   position:fixed;
-}
-
 .content {
    display: flex;
    justify-content: space-between;
@@ -57,3 +50,13 @@ img.world{
     float: left;
     background-color: honeydew;
 }
+strong{
+    color:goldenrod;
+}
+
+#one{
+     display: flex;
+    justify-content: space-between;
+    margin-inline: 0;
+}
+

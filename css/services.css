@@ -42,3 +42,8 @@ button{
   font-weight: bold;
   border: none;
 }
+.button{
+  text-align: center;
+  width: 100%;
+  height: 30%;
+}

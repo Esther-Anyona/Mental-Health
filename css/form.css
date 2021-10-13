@@ -35,3 +35,31 @@ button{
   background-color: #1e847f;
   border-radius: 18px;
 }
+
+button:hover{
+  background-color: #ffc13b;
+}
+
+.modal{
+  /*display: hidden;*/
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.submit-button{
+  background-color: #f4f4f4;
+  margin: 20% auto;
+  padding: 20px;
+  width: 55%;
+  box-shadow: 0 4px 9px 0 rgba(0,0,0,0.3), 0 5px 15px 0 rgba(0,0,0,0.3);
+}
+
+.close-button{
+  
+}

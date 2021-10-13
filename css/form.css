@@ -7,3 +7,13 @@
 p.drugs{
   font-weight: 300px;
 }
+
+button{
+  text-align: center;
+  width: 10%;
+  height: 10%;
+  font-weight: bold;
+  color: white;
+  background-color: #1e847f;
+  border-radius: 18px;
+}

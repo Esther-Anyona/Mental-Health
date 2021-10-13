@@ -26,3 +26,8 @@ img{
   width: 500px;
   height: 500px;
 }
+.container-services{
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+}

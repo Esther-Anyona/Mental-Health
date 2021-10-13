@@ -1,3 +1,10 @@
+*{
+  color: #1e3d59;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 #intro{
   font-size: 30px;
   font-weight: bold;

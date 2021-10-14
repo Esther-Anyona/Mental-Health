@@ -4,7 +4,32 @@
   font-weight: bold;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.main{
+  display:flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  background-color:rgba(127,178,198,0.7);
+  width:100%;
+}
 
+.logo{
+  align-items: center;
+}
+
+ul li{
+  display: inline-block;
+  padding: 30px;
+  color:red;
+  cursor: pointer;
+}
+
+ul li a{
+  text-decoration: none;
+}
+
+ul li a:hover{
+  color:white;
+}
 div.form>p#intro{
   background-color: #e5e5dc;
   padding: 10px;

@@ -15,11 +15,7 @@ body {
     background-color:rgba(127,178,198,0.7);
     width:100%;
 }
-.choose{
-    
-    display:flex;
-    position:relative;
-}
+
 .logo{
     align-items: center;
 }
@@ -31,8 +27,17 @@ ul li{
     cursor: pointer;
 }
 
-ul li:hover{
+ul li a{
+    text-decoration: none;
+}
+
+ul li a:hover{
     color:white;
+}
+.choose{
+    
+    display:flex;
+    position:relative;
 }
 .text{
     text-align: center;

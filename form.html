@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/form.css">
+
+</head>
+<body>  
+  <div class="form">
+    <p id="intro">Welcome to MentalCheck!<br> The journey you are about to take 
+    will be one that will be<br> very rewarding. To help you start this journey,<br>
+     you need to answer the questions below.</p><br>
+     <!--start of the questionnaire-->
+     <div class="questionnaire">
+      <form class="filled">
+        <!--Name-->
+        <label for="Name" class="name">Name(Full name)</label><br>
+        <input type="text" name="Name"> <br><br>
+        
+        <!--Age-->
+        <label for="Age" class="age">Age</label><br>
+        <input type="text" number="number"><br><br>
+        
+        <!--email-->
+        <label for="Email" class="email">Email-address</label><br>
+        <input type="text" address="Email-address"><br><br>
+        
+        <!--Location-->
+        <label for="Location" class="location">Location</label><br>
+        <input type="text" name="Location"><br><br>
+        
+        <!--Mood check-->
+        <p class="mood">How do you feel currently?</p>
+        <textarea name="message" rows="5" cols="50"></textarea>
+
+        <!--Goal-->
+        <p class="goal">What is your goal for therapy?</p>
+        <textarea name="message" rows="5" cols="50"></textarea>
+
+        <!--family-->
+        <p class="family">Does any member of your family suffer
+          from any diagnosed mental illness?</p>
+           <input type="radio" id="family" name="yes" value="yes">
+           <label for="yes">Yes</label><br>
+           <input type="radio" id="no" name="no" value="no">
+           <label for="no">No</label><br>
+           <input type="radio" id="know" name="know" value="know">
+           <label for="know">I don't know</label>
+
+         <!--drugs-->
+         <p class=drugs>Have you used any drugs recently?
+          (Within the past three months)</p>
+          <input type="radio" id="drugs" name="yes" value="yes!">
+            <label for="yes">Yes</label><br>
+            <input type="radio" id="no" name="no" value="no!">
+            <label for="no">No</label><br>
+            <input type="radio" id="know" name="know" value="know!">
+            <label for="know">I don't know</label>  
+            
+           <!--starting-->
+        <p class="start">What time is the most convenient for you to have 
+          a session?</p>
+          <input type="checkbox" id="time" name="time" value="time">
+          <label for="time">7:00AM-11:00AM</label><br>
+          <input type="checkbox" id="time" name="time" value="time">
+          <label for="time">11:00AM-2:00PM</label><br>
+          <input type="checkbox" id="time" name="time" value="time">
+          <label for="time">2:00PM-5:00PM</label><br>
+        <br>
+        <br>
+
+         <!--submit-->
+         <button id="modalBtn" class="button">Submit</button>
+        <!--changes-->
+            <div id="simpleModal" class="modal">
+            <div class="modal-content">
+              <span class="closeBtn">&times;</span>
+              <p>Thankyou for your response!<br> A counsellor 
+              will be in touch with you shortly</p>
+            </div>
+            </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

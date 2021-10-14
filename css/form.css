@@ -1,0 +1,73 @@
+*{
+  color: #1e3d59;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div.form>p#intro{
+  background-color: #e5e5dc;
+  padding: 10px;
+  margin: 2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.questionnaire{
+  text-align: center;
+  background-color: #ffc13b;
+}
+#intro{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p.drugs{
+  font-weight: 300px;
+}
+
+button{
+  text-align: center;
+  width: 10%;
+  height: 10%;
+  font-weight: bold;
+  color: white;
+  background-color: #1e847f;
+  border-radius: 18px;
+}
+
+button:hover{
+  background-color: #ff6e40;
+}
+
+div.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content{
+  background-color: #f4f4f4;
+  margin: 20% auto;
+  padding: 20px;
+  width: 55%;
+  box-shadow: 0 4px 9px 0 rgba(0,0,0,0.3), 0 5px 15px 0 rgba(0,0,0,0.17);
+}
+
+.closeBtn{
+  color: #ccc;
+  float: right;
+  font-size: 30px;
+}
+
+.closeBtn:hover , .closeBtn:focus{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

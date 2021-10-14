@@ -18,6 +18,8 @@
 
 .logo{
   align-items: center;
+  width: 150px;
+  height: 150px;
 }
 
 ul li{

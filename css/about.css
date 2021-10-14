@@ -9,7 +9,7 @@
     display:flex;
     justify-content: space-between;
     text-transform: uppercase;
-    background-color:rgba(127,178,198,0.7);
+    /* background-color:rgba(127,178,198,0.7); */
     width:100%;
 }
 
